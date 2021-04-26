@@ -34,12 +34,13 @@ HTTP: hyper text transfer protocol.
 	In that response above the BODY of the response is HTML. HT are first two letters.
 
 **HTTP verbs are requests from Client**
-
+```
 HTTP VERBS | CRUD
 	GET       READ
 	POST      CREATE
 PUT, PATCH    UPDATE
 	DELETE    DELETE
+```
 
 **Headers** - a collection of key-value pairs which comprises essential metadata about the request
 **Body** - data that is sent in the request (key-value pair also)
