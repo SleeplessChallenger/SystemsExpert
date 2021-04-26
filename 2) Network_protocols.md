@@ -42,7 +42,7 @@ PUT, PATCH    UPDATE
 	DELETE    DELETE
 ```
 
-**Headers** - a collection of key-value pairs which comprises essential metadata about the request
+**Headers** - a collection of key-value pairs which comprises essential metadata about the request<br>
 **Body** - data that is sent in the request (key-value pair also)
 
 Response can have status <i>code/ headers/ body</i>
