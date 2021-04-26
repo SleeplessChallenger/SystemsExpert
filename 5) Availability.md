@@ -24,8 +24,8 @@ Act of multiplying the system certain parts
 
 Ex of single point: many Clients -> Server -> DB. Here server is a single point, that’s why adding another server is an option + adding **load balancer** between Clients and servers to distribute them on the servers. But having only one LB is a single point => adding multiple of them
 
-Stuff above is **Passive redundancy** 
-If some part goes down (like one of the LB) then another ones will take the work till first is revamped
+Stuff above is **Passive redundancy** <br>
+If some part goes down (like one of the LB) then another ones will take the work till first is revamped <br>
 **Active redundancy** is when only particular amount of machines (from a group) handles operations and one of them fails (or the group of them) => other machines in the system know that something is broken and they reconfigure themselves.
 
 2. Processes to handle outages swiftly.
