@@ -19,7 +19,7 @@ For ex: Stripe has payment service which has to be HA, whilst other parts of the
 <ins>**Ways to ensure the system not to fail:**</ins>
 
 No single points of failure: if one place fails then whole system crashes.
-How to eliminate them? With <i>**Redundancy**</i>
+How to eliminate them? With <i>**Redundancy**</i> <br>
 Act of multiplying the system certain parts
 
 Ex of single point: many Clients -> Server -> DB. Here server is a single point, that’s why adding another server is an option + adding **load balancer** between Clients and servers to distribute them on the servers. But having only one LB is a single point => adding multiple of them
