@@ -18,7 +18,7 @@ Result: improved throughput as servers aren’t overloaded and clients will have
 
 <ins><i>How does LB select servers to redirect traffic to?</i></ins> aka **Server selection strategy** 1. <ins>Random choice</ins> 2. <ins>Round-robin approach</ins> - LB redirects requests from top to bottom of the servers and so on 3. <ins>Waited Round-robin</ins> - main gist is the same as in point 2, but here we place a wait on a server then LB will redirect a little more on that server (for ex, if one of the servers is more powerful than the other) 4. <ins>Based on load</ins> - LB makes health checks of the servers to know how much traffic a server is handling/time to respond/amount of resources that server is using 5. <ins>IP address based</ins> - LB gets request from the client and hashes IP address of the client and depending on the hash number LB will redirect traffic accordingly. 6. <ins>Path-based</ins> - LB distributes requests according to the **path** of the request, i.e. on AlgoExpert requests related to code are redirect to one set of servers, requests related to payment to another set of servers etc.
 
-Ex of IP based LB: if there is a **cache** in the system (you cache the results of requests in the servers), # then results of clients requests can be cached at the servers <br>
+Ex of IP based LB: if there is a **cache** in the system (you cache the results of requests in the servers), (then results of clients requests can be cached at the servers) <br>
 and requests of the specific clients can be redirected to the specific server in which response of that client has been cached
 
 **Note:** in the system there can be multiple load balancers which use various server selection strategies
