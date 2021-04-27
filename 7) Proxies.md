@@ -31,8 +31,8 @@ Benefits: 1) anonymity 2) caching 3) blocking unwanted sites 4) GeoFencing
 Reverse Proxy:
 ```
 Client -> Reverse Proxy -> Server1
-			                  -> Server2
-		                    -> Server3
+			-> Server2
+		        -> Server3
 ```
 Proxy hides identity of the server for the client
 
