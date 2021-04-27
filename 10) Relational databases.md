@@ -8,10 +8,10 @@ SQL is a language to interact with relational databases. <ins><i>Powerful queryi
 
 SQL must use ACID transaction. **ACID transaction** that has 4 properties: atomicity, consistency, isolation, durability.
 
--<ins>Atomicity</ins>: either all the transactions succeed or fail. Transaction itself consists of multiple operations. For ex, when doing money transfer from one bank account to another: deducting from one account and increasing on another account (2 sub operations, where overall it’s known as unit). If not succeed -> rollback all the transaction
--<ins>Consistency</ins>: every transaction in a db will conform to all rules in the db. Every future transaction in the database will take into account all the previous transactions. I.e **cannot be stale state** in the db: when one transaction doesn’t know that other has already performed == there will be no delay in the data state within the db
--<ins>Isolation</ins>: execution of multiple **concurrent** transactions equals to execution of multiple **sequential** transactions
--<ins>Durability</ins>: results of transaction in the db are permanent, i.e. data stored in db is stored on disk
+- <ins>Atomicity</ins>: either all the transactions succeed or fail. Transaction itself consists of multiple operations. For ex, when doing money transfer from one bank account to another: deducting from one account and increasing on another account (2 sub operations, where overall it’s known as unit). If not succeed -> rollback all the transaction<br>
+- <ins>Consistency</ins>: every transaction in a db will conform to all rules in the db. Every future transaction in the database will take into account all the previous transactions. I.e **cannot be stale state** in the db: when one transaction doesn’t know that other has already performed == there will be no delay in the data state within the db<br>
+- <ins>Isolation</ins>: execution of multiple **concurrent** transactions equals to execution of multiple **sequential** transactions<br>
+- <ins>Durability</ins>: results of transaction in the db are permanent, i.e. data stored in db is stored on disk<br>
 
 
 **Database index** - auxiliary data structure that will speed up the search within your database.
