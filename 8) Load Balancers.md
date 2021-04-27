@@ -1,6 +1,6 @@
 **Load Balancers**
 
-Many Clients send requests to the Server => 1. make many servers to deal with it (<i>horizontally</i>) 2. Increase the power of current server (<i>vertically</i>). In many cases LB will be a reverse proxy. But not always: LB can be between Server and DB or at DNS layer (**``round-robin*`` **)
+Many Clients send requests to the Server => 1. make many servers to deal with it (<i>horizontally</i>) 2. Increase the power of current server (<i>vertically</i>). In many cases LB will be a reverse proxy. But not always: LB can be between Server and DB or at DNS layer (``round-robin*``)
 
 *Single domain name gets multiple IP addresses, when DNS query is made to get an IP address of that domain name, multiple IP addresses associated with that domain name will be returned in a load-balanced way. (Below) Same domain name has various endings of IP address due to the LB as round-robin.
 
