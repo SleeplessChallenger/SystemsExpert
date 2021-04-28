@@ -10,7 +10,8 @@ In many cases <ins><i>low latency</i></ins> and <ins><i>increased throughput</i>
 
 ![Alt text](ImageRepo/Key_value_Stores_second.png?raw=true)
 
-Difference between those NoSQL DBs? 
+Difference between those NoSQL DBs?
+<br>
  a) some of them write data to disk and even if the key-value store server crashes the data will persist on the disk. Others write to memory (i.e. Redis, but can be implemented as separate entity and if server crashes => data in DB persists) => data will be lost if the server goes down.<br>
  For example, for cache memory writing will be enough<br>
  b) Strong consistency vs Eventual consistency 
