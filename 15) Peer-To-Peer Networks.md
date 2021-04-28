@@ -21,7 +21,8 @@ And the process goes on.
 
 ![Alt text](ImageRepo/Peer_To_Peer_Networks_first.png?raw=true)
 
-But in real system we don’t want to be the selection of peers random => **Peer discovery/Peer selection** - peers know what peers to communicate with next. But how to do it? a) have DB (known as **Tracker**) which will know which peer to talk to next (when peers want to communicate with another peer, they at first communicate to that Tracker and it tells them which one to talk to next) <br>
+But in real system we don’t want to be the selection of peers random => **Peer discovery/Peer selection** - peers know what peers to communicate with next. But how to do it? <br>
+a) have DB (known as **Tracker**) which will know which peer to talk to next (when peers want to communicate with another peer, they at first communicate to that Tracker and it tells them which one to talk to next) <br>
 b) **Gossip/Epidemic protocol** - peers themselves talk to each other to say what last peer they talked to and what part it has (without central DB): i.e. peers have mappings which say what peers possess which part of the file (I.e. IP address of the peer is mapped to chunk integer). Such kind of mapping is known as **distributed hash table (DHT)**
 
 ![Alt text](ImageRepo/Peer_To_Peer_Networks_second.png?raw=true)
