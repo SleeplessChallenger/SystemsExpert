@@ -21,4 +21,4 @@ Ex: multiple servers communicate with Etcd (key-value store), and at any given m
 
 Example of implementation when one of server is leader. If it dies, one of the other servers takes his place.
 
-![Alt text](ImageRepo/Leader_Election_second?raw=true)
+![Alt text](ImageRepo/Leader_Election_second.png?raw=true)
