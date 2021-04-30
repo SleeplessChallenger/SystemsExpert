@@ -4,7 +4,7 @@
 Client is the machine which sends request to the Server. Server is the machine that responds to the Client with result.
 
 **Note:** machine can have both roles simultaneously when being a server to the browser it can be a client to the database.
-Cl
+
 When you type www.Algoexpert.io: browser makes a **DNS** query to find what the **IP** address of the aforementioned site is and only after that it can speak to the site.
  
 **DNS(domain name system):** special request that goes to a predetermined list of servers and requests the IP address of the desired site.  
