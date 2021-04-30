@@ -12,7 +12,7 @@ Ex: Many clients’ requests go to LB at first and it distributes them to the se
 
 Result: improved throughput as servers aren’t overloaded and clients will have better latency.
 
-**Note:** there are hardware load balancers and software ones. Latter one is more customizable and scalable => below software LB are used as base.
+**Note:** there are hardware load balancers and software ones. Latter one is more customizable and scalable => below software LBs are used as base.
 
 <ins><i>How does LB know about new server?</i></ins> People who are responsible for the system configure LB in such a way that they (LB & Server) register with each other in a moment of initialization. 
 
