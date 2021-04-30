@@ -1,6 +1,6 @@
 **Peer-To-Peer Networks**
 
-If we design a system which will transfer some amount data (i.e. 5 GB files) to thousands of machines multiple times in a day. How to speed up the process and eliminate bottleneck related to only one machine being responsible for all the work? 
+If we design a system which will transfer some amount of data (i.e. 5 GB files) to thousands of machines multiple times in a day. How to speed up the process and eliminate bottleneck related to only one machine being responsible for all the work? 
 
 1. **Increase amount** of machines that will have the desired data and they’ll give out the file in a distributed manner: those thousands of machines will ask for data from various machines => some boost is seen. But in this methods it means that those 5 GB files are **to be replicated** on all the additionally put machines
 
