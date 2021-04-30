@@ -39,7 +39,7 @@ Here **SSL certificate** comes into play.
 
 <ins><i>SSL certificates</i></ins> - certificates that are granted by trusted third party called a certificate authority (CA). It’s an organization that, let’s say, developers trust to and this organization will give certificates to, let’s say, AlgoExpert’s server. Certificate itself here - digital item that CA signed and client can rely on this certificate and be confident that the server is actually what it’s and not some malicious user. + public/private keys can be given to the server by CA.
 
-SSL Certificate comprises: public key, server entity itself (like AlgoExpert), assurance. And all these things are signed by private key owned by CA. And to verify this digital signature (SSL certificate broadly) client will use public key of the CA.
+<ins><i>SSL Certificate comprises:</i></ins> public key, server entity itself (like AlgoExpert), assurance. And all these things are signed by private key owned by CA. And to verify this digital signature (SSL certificate broadly) client will use public key of the CA.
 
 Generally, browsers have public keys of all the major Certificate authorities so that browsers can verify SSL certificated from various CA.
 
