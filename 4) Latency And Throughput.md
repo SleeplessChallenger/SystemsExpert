@@ -5,7 +5,7 @@ Latency - how long does it take for data to traverse a system (from one point to
 **Note:** example of Inter-Continental Round Trip is a packet sending from CA -> Netherlands -> CA;
 Over Network is like a network request where call to API is made; from RAM is like reading a variable in a code
 
-When you design system, ideally you want to minimize <i>latency</i>, but it depend on the system (so-called trade-offs)
+When you design system, ideally you want to minimize <i>latency</i>, but it depends on the system (so-called trade-offs)
 Ex: lag in a video game is an example of **high latency** 
 
 
