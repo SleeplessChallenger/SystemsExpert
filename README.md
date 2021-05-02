@@ -11,4 +11,4 @@ In this repo you can find memos that I made for every topic covered on https://w
 - synposes are paginated in order topic was covered on the syte, <br>
   hence for better coverage stick to the order
 
-![Alt text](ImageRepo/Systems.png?raw=true)
+![Alt text](ImageRepo/SystemsImg.png?raw=true)
