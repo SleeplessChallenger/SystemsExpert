@@ -12,7 +12,7 @@ When client interacts with server over HTTP, we assume that this connection is p
 
 **Precaution:** this type of encryption uses 1 key which must be shared sometimes to enable both parties to communicate. So, this key must be shared via secured network. Ex: Server must give this key to Client, but if done via unsecured network => vulnerability to attack
 
-**Asymmetric** - type of encryption, aka public key encryption, that relies on two keys to encrypt and decrypt the messages. Those 2 keys are generated together (one of them is called public, another - private) using some cryptographic algorithms in such a way that if you encrypt the message by public key then you can decrypt it only by private key. Everyone can see that private key and even use it to encrypt messages, but the only person who has access to the private key is you (ex. Server). Con: slower compared to symmetric encryption.
+**Asymmetric** - type of encryption, aka public key encryption, that relies on two keys to encrypt and decrypt the messages. Those 2 keys are generated together (one of them is called public, another - private) using some cryptographic algorithms in such a way that if you encrypt the message by public key then you can decrypt it only by private key. Everyone can see that public key and even use it to encrypt messages, but the only person who has access to the private key is you (ex. Server). Con: slower compared to symmetric encryption.
 
 ```
 TLS - transport layer security is a type of protocol over which HTTP runs and becomes HTTPS (HTTP over TLS). So, HTTPS communication is encrypted using TLS.
